@@ -9,7 +9,7 @@ TechnoNotes is a modern and intuitive note-taking application built with the MER
 - 📝 Create, edit, and delete notes
 - 📁 Organize notes with tags or categories
 - 💾 Auto-save and persistent storage
-- 🔐 Secure authentication (JWT-based)
+- 🔐 Rate Limitting using upstash
 - 🌐 Responsive UI for desktop and mobile
 - ☁️ Cloud-ready and easily deployable
 
@@ -19,7 +19,7 @@ TechnoNotes is a modern and intuitive note-taking application built with the MER
 
 **Frontend:**
 - React
-- Redux (optional)
+- Daisy UI
 - Axios
 - CSS / Tailwind / Styled Components
 
@@ -27,7 +27,7 @@ TechnoNotes is a modern and intuitive note-taking application built with the MER
 - Node.js
 - Express.js
 - MongoDB & Mongoose
-- JWT Authentication
+- Upstash
 - dotenv for environment variables
 
 ---

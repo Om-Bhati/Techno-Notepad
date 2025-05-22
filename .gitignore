@@ -1,35 +1,26 @@
-# Root
-node_modules/
-.env
-.DS_Store
-*.log
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Backend
-/backend/node_modules/
-/backend/.env
-/backend/dist/
-/backend/build/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Frontend
-/frontend/node_modules/
-/frontend/.env
-/frontend/dist/
-/frontend/build/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# OS
-Thumbs.db
-ehthumbs.db
-
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Optional: Ignore coverage reports
-/coverage/
+.env
